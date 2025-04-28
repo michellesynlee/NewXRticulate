@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.boxqkrtm.ide.cursor": "https://github.com/boxqkrtm/com.unity.ide.cursor.git",
+    "com.openai.unity": "8.6.6",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.feature.development": "1.0.1",
     "com.unity.feature.vr": "1.0.0",
@@ -14,6 +16,7 @@
     "com.unity.xr.mock-hmd": "1.4.0-preview.2",
     "com.unity.xr.oculus": "4.5.1",
     "com.unity.xr.openxr": "1.14.0",
+    "voice2action": "https://github.com/paeb37/Voice2Action.git",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -45,5 +48,15 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.openai",
+        "com.utilities"
+      ]
+    }
+  ]
 }
