@@ -2354,7 +2354,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &925887853
 Transform:
   m_ObjectHideFlags: 0
@@ -5066,6 +5066,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9115835538155627009, guid: 84e1d771563d77c4d9368d7dcee7bac4, type: 3}
+      propertyPath: m_text
+      value: XRticulate
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5202,7 +5206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695465196322988431, guid: f23675c6bd7b18a4782739dc77ce20b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 2695465196322988431, guid: f23675c6bd7b18a4782739dc77ce20b1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5210,7 +5214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2695465196322988431, guid: f23675c6bd7b18a4782739dc77ce20b1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.09
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 2695465196322988431, guid: f23675c6bd7b18a4782739dc77ce20b1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6385,6 +6389,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[0].m_Input
+      value: lift them up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[1].m_Input
+      value: lift up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[2].m_Input
+      value: lift
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[3].m_Input
+      value: move it higher
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[4].m_Input
+      value: make it a bit taller and very close
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[5].m_Input
+      value: make them shorter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[1].m_Output
+      value: 'ModifyPositionY: higher'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[2].m_Output
+      value: 'ModifyPositionY: higher'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[3].m_Output
+      value: 'ModifyPositionY: higher'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[4].m_Output
+      value: 'ModifyScale: a bit taller, ModifyPosition: very close'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555062268044494008, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
+      propertyPath: m_ModificationGroup.m_FewShotPairs.Array.data[5].m_Output
+      value: 'ModifyScale: shorter'
+      objectReference: {fileID: 0}
     - target: {fileID: 3199589076490503515, guid: fbf4b7a9d2e628546b50074ca4dca430, type: 3}
       propertyPath: m_Name
       value: Voice2Action
