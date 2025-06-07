@@ -28,7 +28,7 @@ https://yang-su2000.github.io/Voice2Action/#installation-instructions
 ```
 
 ### 4. Additional Package
-Add the custom package:
+Add our custom [Voice2Action package](https://github.com/paeb37/Voice2Action):
 ```bash
 https://github.com/paeb37/Voice2Action.git
 ```
